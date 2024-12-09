@@ -15,6 +15,19 @@
       li {
         font-family: Arial;
       }
+      .grid-container{
+        display: flex;
+        grid-template-column: repeat(3, 1fr);
+        gap: 400px;
+        margin-top: 20px
+      }
+      .grid-item {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         text-align: center;
+      }
     </style>
   </head>
   <body>
@@ -28,6 +41,8 @@
         <br/>
         <img alt="Bumblebee Lego" src="https://www.lego.com/cdn/cs/set/assets/bltba5ac23eed5d9c36/10338.png?format=webply&fit=bounds&quality=75&width=800&height=800&dpr=1" height="250" width="270">
       </li>
+      <br/>
+      <div class="grid-container">
       <li>
         <a href="https://www.amazon.es/Sky-Dragon-Prince-2/dp/1338666401/ref=sr_1_11?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1BTAWU8HINED1&dib=eyJ2IjoiMSJ9.9sWgEc_dYcIMQzQ5bIWswBo2Wu-oDUhHWYmaDmAUtDt4rsWQyLAUQA2aWxftlWjoVjppbuEx1hV0njjy_SYtyt2R5j06Ma3S1dsva1QJhAhi5f0wlayyhCUXX4RfhCNL8qXssvV1RY0Q5WrCIH0zoUdulFGU9PrbuqD_FVQwtJleHof1Qdk-uRC02IoUCcOTceptv9Eg6Nl0oTDol0dPJaaoDitO6J6WKLyyskI059tCOXCrfI1hOaUuha3DaIypPdoDyZ6WQhMfLLrbHa3O4mUgwL32Os5zlRd-y5Cyikg.dXBrlRhvBjFrKGUxLeaTjPZLMRMD48QIIcRBXs8BkcU&dib_tag=se&keywords=the+dragon+prince&nsdOptOutParam=true&qid=1731417019&sprefix=the+dragon+prince%2Caps%2C159&sr=8-11">The dragon prince book two: air</a>
         <br/>
@@ -38,33 +53,41 @@
         <br/>
         <img alt="The dragon prince book 3" src="https://m.media-amazon.com/images/I/51wEsbYmbDL._SY445_SX342_.jpg" height="220" width="150">
       </li>
+      </div>
+      <br/>
       <li>
         <a href="https://www.lego.com/es-es/product/the-nether-portal-ambush-21255">Un <i>Lego Minecraft</i></a>
         <br/>
         <img alt="Lego Minecraft" src="https://www.lego.com/cdn/cs/set/assets/blt73efc5622c75bd57/21255.png?format=webply&fit=bounds&quality=75&width=800&height=800&dpr=1" height="200" width="220">
       </li>
+      <br/>
       <li>
         Uns mangas de <i>Dan Da Dan</i>
-        <ul>
-          <li><a href="https://www.amazon.es/gp/product/8467965169/ref=ox_sc_act_image_6?smid=A1AT7YVPFBWXBL&psc=1">El número 11</a>
+        <ul class="grid-container">
+          <li class="grid-item"><a href="https://www.amazon.es/gp/product/8467965169/ref=ox_sc_act_image_6?smid=A1AT7YVPFBWXBL&psc=1">El número 11</a>
             <br/>
             <img alt="dan da dan" src="https://m.media-amazon.com/images/I/71A4fAP3TBL._SY385_.jpg" height="200">
           </li>
-          <li><a href="https://www.amazon.es/gp/product/8467971274/ref=ox_sc_act_image_5?smid=A1AT7YVPFBWXBL&psc=1">El número 12</a>
-            <br/>
+          <li class="grid-item"><a href="https://www.amazon.es/gp/product/8467971274/ref=ox_sc_act_image_5?smid=A1AT7YVPFBWXBL&psc=1">El número 12</a>
             <img alt="dan da dan" src="https://m.media-amazon.com/images/I/71fhN98jX0L._SY385_.jpg" height="200">
           </li>
-          <li><a href="https://www.amazon.es/gp/product/8467971282/ref=ox_sc_act_image_7?smid=A1AT7YVPFBWXBL&psc=1">El número 13</a>
+          <li class="grid-item"><a href="https://www.amazon.es/gp/product/8467971282/ref=ox_sc_act_image_7?smid=A1AT7YVPFBWXBL&psc=1">El número 13</a>
             <br/>
             <img alt="dan da dan" src="https://m.media-amazon.com/images/I/71em+qhSpiL._SY385_.jpg" height="200">
           </li>
         </ul>
       </li>
+      <br/>
       <li>
         <a href="https://www.amazon.es/gp/product/B0DK1KNK7D/ref=ewc_pr_img_1?smid=A1EFC819SXRHM7&psc=1">Un rellotge intel·ligent</a>
         <br/>
         <img alt="rellotge intel·ligent" src="https://m.media-amazon.com/images/I/71kJzvyWe5L._AC_SX425_.jpg" height="200">
       </li>
+      <br/>
+      <li>
+        <a href="https://www.amazon.es/fire-tv-stick-4k/dp/B0CJKTWTVT/ref=sr_1_1?crid=2VGM77RIM5I3D&dib=eyJ2IjoiMSJ9.TKSgzxxZaQTAVXA8kxi71-UeBPkTPyWaS4n7d6EeGJPUzRXcvqa4dZRZ_5Eq56SDURl50Y0t90s1jWjyaC8C4Vdiz68AU6NbtkDMO-4d08D-tiNL_Eu6uHK0eV6ZeoUO1okB4xmFiLsWGgGjbYZVFB1LysdFVCPpcFTuSRkycI-TidgvmiGny-iVjy1CGwIa8HthGH13kVWFkLRs6oUz4CsCt-h0Dgiu3t_RHd0gYpqXZH86s9mkf5RIDbLv0XOGpOeX9bxz4pBjpYi7OshAL0eRNRH_TjVXZuSF2fA_88o.uhMUhnkplQZORGIYZT03t0IGCQNRXY-ZKrnRaz_qh84&dib_tag=se&keywords=fire+stick+4k%2B&nsdOptOutParam=true&qid=1733770957&s=electronics&sprefix=fire+stick%2Celectronics%2C305&sr=1-1">Un Fire Stick TV per el projector</a>
+        <br/>
+        <img alt="firesticktv" src="https://m.media-amazon.com/images/I/51Vk0D5OoeL._AC_SX679_.jpg" height="200">
     </ul>
   </body>
 </html>
